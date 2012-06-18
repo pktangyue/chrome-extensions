@@ -1,17 +1,22 @@
 {
     "name": "tangyue的插件",
-    "version": "1.0",
+    "version": "2.0",
     "description": "some simple function",
     "background":{"scripts":["background.js"]},
     "page_action": {
-        "default_icon": "icon-19.png"
+        "default_icon": "icon/icon-19.png"
     },
     "content_scripts":
     [
         {
-            "matches": ["http://web.sanguosha.com/*"],
-                "js": ["content_script.js"]
+            "matches": ["http://web.sanguosha.com/*","http://weibo.com/*","http://www.douban.com/*"],
+                "js": ["jquery-1.7.2.min.js","content_script.js"]
         }
     ],
-    "permissions":["tabs", "http://web.sanguosha.com/*"]
+    "icons":
+    { "16": "icon/icon-16.png",
+        "48": "icon/icon-48.png",
+        "128": "icon/icon-128.png"
+    },
+    "permissions":["tabs"]
 }
