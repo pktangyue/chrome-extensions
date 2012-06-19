@@ -1,6 +1,6 @@
 {
     "name": "tangyue的插件",
-    "version": "2.1",
+    "version": "2.2",
     "description": "some simple function",
     "background":{"scripts":["background.js"]},
     "page_action": {
