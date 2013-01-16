@@ -24,4 +24,8 @@ if(href.indexOf('weibo.com') > -1){
     $('.level_1_Box:nth-child(2)').remove();
     $('#pl_leftnav_group').find('[node-type="moreList"]').show();
 }
+if(href.indexOf('stackoverflow.com/questions') > -1){
+    $('#adzerk2').remove();
+    $('#hireme').remove();
+}
 chrome.extension.sendRequest({},function(response){});
