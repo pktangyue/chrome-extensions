@@ -20,7 +20,7 @@ if(href.indexOf("www.douban.com") > -1){
     };
     $('input[name="q"]').blur(handle_value(handle_input_basic)).keydown(handle_value(handle_input_basic));
 }
-if(href.indexOf('weibo.com') > -1){
+if(href.indexOf('www.weibo.com') > -1){
     $('.level_1_Box:nth-child(2)').remove();
     $('#pl_leftnav_group').find('[node-type="moreList"]').show();
 }

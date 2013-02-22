@@ -1,6 +1,6 @@
 {
     "name": "tangyue的插件",
-    "version": "2.5",
+    "version": "2.6",
     "description": "some simple function",
     "background":{"scripts":["background.js"]},
     "page_action": {
@@ -11,7 +11,7 @@
         {
             "matches": [
                 "http://web.sanguosha.com/*",
-                "http://weibo.com/*",
+                "http://www.weibo.com/*",
                 "http://www.douban.com/*",
                 "http://stackoverflow.com/*"
             ],
@@ -23,6 +23,6 @@
         "48": "icon/icon-48.png",
         "128": "icon/icon-128.png"
     },
-    "permissions":["tabs","http://weibo.com/*"],
+    "permissions":["tabs","http://www.weibo.com/*"],
     "manifest_version": 2
 }
